@@ -10,4 +10,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install memcached
 
 EXPOSE 11211
 
-CMD ["/usr/bin/memcached", "-m", "64000", "-u", "memcache", "-v"]
+CMD ["/usr/bin/memcached", "-u", "memcache", "-v"]
